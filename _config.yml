@@ -1,4 +1,6 @@
 name: Song Jaehak
+mail: master@hpi.cc
+copyright: © 2014 Song Jaehak
 markdown: redcarpet
 pygments: true
 encoding: utf-8

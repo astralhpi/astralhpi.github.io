@@ -1,3 +1,4 @@
 - 
     name: Profile
-    url: test.html
+    url: profile.html
+    icon: glyphicon-user
