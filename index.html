@@ -5,6 +5,7 @@ title: Posts
 
 <div class="posts">
 {% for post in paginator.posts %}
+
   <div class="post">
     <div class="title"><a href="{{ post.url }}">{{ post.title }}</a></div>
     <div class="date">{{ post.date | date_to_string }}</div>
@@ -12,6 +13,7 @@ title: Posts
       {{ post.content }}
     </div>
   </div>
+ 
 {% endfor %}
 </div>
 
