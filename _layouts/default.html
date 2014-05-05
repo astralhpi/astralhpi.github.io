@@ -30,7 +30,14 @@
           <ul class="nav navbar-nav">
             {% for nav in site.data.navs %}
             <li {% if page.url == nav.url %}class="active"{% endif %}>
-              <a href="{{nav.url}}"><span class="glyphicon {{nav.icon}}"></span>{{ nav.name }}</a>
+              <a href="{{nav.url}}"><span class="glyphicon {{nav.icon}}"></span> {{ nav.name }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            {% for contact in site.data.contacts %}
+            <li>
+              <a href="{{contact.url}}"><span class="glyphicon {{contact.icon}}"></span></a>
             </li>
             {% endfor %}
           </ul>
