@@ -1,0 +1,14 @@
+.date{
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.1;
+  color: inherit;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 28px;
+  text-align:right;
+}
+.pagination{
+  text-align: center;
+  width:100%;
+}

@@ -5,3 +5,5 @@ markdown: redcarpet
 pygments: true
 encoding: utf-8
 timezone: Asia/Seoul
+paginate: 5
+paginate_path: "blog/page:num"
