@@ -3,7 +3,9 @@ descraiption:
 url: http://hpi.cc
 mail: master@hpi.cc
 copyright: © 2014 Song Jaehak
-markdown: redcarpet
+markdown: kramdown
+kramdown:
+    input: GFM
 pygments: true
 encoding: utf-8
 timezone: Asia/Seoul
