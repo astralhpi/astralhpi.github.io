@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Beautiful Soup과 Requests"
+title: "Beautiful Soup와 Requests"
 date: 2014-05-13
 category: python
 ---
