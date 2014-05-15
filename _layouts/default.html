@@ -46,13 +46,16 @@
             </li>
             {% endfor %}
           </ul>
-          <ul class="nav navbar-nav navbar-right">
-            {% for contact in site.data.contacts %}
-            <li>
-              <a href="{{contact.url}}"><span class="glyphicon {{contact.icon}}"></span></a>
-            </li>
-            {% endfor %}
-          </ul>
+          <form class="navbar-form navbar-right" action="#" role="search">
+            <div class="form-group">
+              <div class="input-group">
+                <input class="form-control" id="search-input" type="search" placeholder="Search">
+                <span class="input-group-btn">
+                  <button type="submit" class="btn" id="search-button"><span class="fui-search"></span></button>
+                </span>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </nav><!-- /navbar -->
@@ -64,11 +67,20 @@
     <div class="bottom-menu bottom-menu-inverse">
       <div class="container">
         <div class="row">
-          <div class="col-md-9">
+          <div class="col-md-6">
             © Song Jaehak. All rights reserved. Powered by <a href="https://pages.github.com/">GitHub Pages</a>
           </div>
-          <div class="col-md-3 rss">
-            <a href="/feed.xml">RSS</a>
+          <div class="col-md-6">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="/feed.xml">Feed</a>
+              </li>
+              {% for contact in site.data.contacts %}
+              <li>
+                <a href="{{contact.url}}"><span class="glyphicon {{contact.icon}}"></span></a>
+              </li>
+              {% endfor %}
+            </ul>
           </div>
         </div>
       </div>
@@ -84,5 +96,7 @@
     <script src="/js/flatui-radio.js"></script>
     <script src="/js/jquery.tagsinput.js"></script>
     <script src="/js/jquery.placeholder.js"></script>
+    <script src="/js/lunr.min.js"></script>
+    <script src="/search.js"></script>
   </body>
 </html>
