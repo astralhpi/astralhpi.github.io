@@ -48,18 +48,19 @@
           </ul>
           <form class="navbar-form navbar-right" action="#" role="search">
             <div class="form-group">
-              <div class="input-group">
-                <input class="form-control" id="search-input" type="search" placeholder="Search">
-                <span class="input-group-btn">
-                  <button type="submit" class="btn" id="search-button"><span class="fui-search"></span></button>
-                </span>
-              </div>
+              <input type="text" class="form-control" id="search-input" placeholder="Search..." />
             </div>
           </form>
         </div>
       </div>
     </nav><!-- /navbar -->
-
+    <div class="find-result-template" style="display:none;">
+      <a class="find-date">date</a><a class="find-title" href="#">title</a>
+    </div>
+    <div class="dialog find-results-dialog" style="display:none;">
+      <div class="container find-results">
+      </div>
+    </div><!-- /find-result -->
     <div class="container">
       {{ content }}
     </div><!-- /container -->

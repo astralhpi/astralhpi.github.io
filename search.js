@@ -19,22 +19,43 @@ for(var index in docs)
 }
 
 $(function() {
-  $("#search-button").click(function() {
-    search();
-  });
-  $("#search-input").keypress(function(e) {
-    if(e.which == 13) {
-      e.preventDefault();
-      search();
+  $("#search-input").on("change paste keyup", function(e) {
+    value = $(this).val();
+    if (value.length > 1){
+      search(value);
     }
   })
 })
 
-function search() {
-  var result = idx.search($("#search-input").val());
-  if (result && result.length > 0) {
-    window.location.replace(result[0].ref);
-  } else {
-    alert("Found nothing");
+function get_doc(ref)
+{
+  for (var i = docs.length - 1; i >= 0; i--) {
+    if( docs[i].id == ref)
+      return docs[i];
+  };
+  return undefined;
+}
+
+function search(value) {
+  var result = idx.search(value);
+
+  $("div.find-results-dialog").removeAttr("style");
+  var find_results = $("div.find-results");
+  find_results.removeData();
+  find_results.html("<h1>Find Results</h1>")
+  if (result.length === 0)
+  {
+    find_results.html(find_results.html() + "No Result.");
   }
+  for (var i = 0; i < result.length; i++) {
+    var doc = get_doc(result[i].ref);
+    template = $("div.find-result-template");
+    var item = template.clone();
+    find_results.append(item);
+    item.find('.find-date').html(doc["date"]+"&nbsp;-&nbsp;");
+    item.find('.find-title').html(doc["title"]);
+    item.find('.find-title').attr('href', doc['ref']);
+    item.attr('class', 'find-result');
+    item.removeAttr('style');
+  };
 }

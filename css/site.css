@@ -28,8 +28,31 @@
   margin-bottom: 15px;
 }
 
+.find-title{
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 28px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.find-date{
+  font-family: inherit;
+  color: inherit;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
 .post{
     margin-bottom: 80px;
+}
+
+.find-results{
+    text-align:left;
 }
 
 h1,
