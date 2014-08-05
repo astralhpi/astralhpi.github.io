@@ -1,0 +1,285 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"packg",
+				"Package Control: Install Package"
+			],
+			[
+				"pak",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"focus",
+				"Focus File on Sidebar"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"termina",
+				"Preferences: Terminal Settings – User"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"jso",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"packge ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pakc",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 478.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/master/Documents/Projects/astralhpi.github.io/blog.sublime-project",
+		"/Users/master/Documents/Projects/astralhpi.github.io/blog.sublime-",
+		"/Users/master/Documents/Projects/project_d/fxd_client/.gitignore",
+		"/Users/master/Documents/Projects/project_d/fxd_client/.gitattributes",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Library/guidmapper",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Assets/IGSoft_Tools/FXMaker/ToolResource/icon/GridImage.png.meta",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Assets/NGUI/Examples/Scripts/InventorySystem/System/InvGameItem.cs",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Assets/MRObjectMapper/Test.meta",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Assets/_ProjectD/Resources/Text/Configs/app_config.json.txt",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Assets/_ProjectD/Graphics/SpineSkels.meta",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Assets/_ProjectD/Resources/Text/Configs/app_config.template.json.txt",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Assets/2d Art Pack.meta",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Assembly-CSharp.csproj",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Assets/_ProjectD/Resources/Text/Tables/character_table.json.txt",
+		"/Users/master/Library/Application Support/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Etc/JsonTemplates/character.template.json",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Assets/_ProjectD/Scripts/Framework/Controllers/CharacterController.cs.meta",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Assets/Colorful/Components/CC_Halftone.cs",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Assets/Spine.meta",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Assets/IGSoft_Resources/Projects/[EffectSample]/SampleParts.meta",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Assets/NGUI/Editor/Preview/Control - Simple Popup List.png.meta",
+		"/Users/master/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Assets/_ProjectD/Resources/Text/Configs/app_config.json.txt.meta",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Assets/Colorful/Changelog.txt",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Assembly-CSharp-vs.csproj",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Doxyfile",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Assets/Colorful/Documentation/img/double-vision-editor.jpg.meta",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Assets/IGSoft_Resources/ToolResources/DefaultShaderMaterials.meta",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Assets/_ProjectD/Graphics/MapThemas/desert01.meta",
+		"/Users/master/Documents/Projects/project_d/fxd_client/Assets/_ProjectD/Scripts/Framework/Configs/AppConfig.cs"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"1000"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "blog.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"app_co",
+				"Assets/_ProjectD/Resources/Text/Configs/app_config.json.txt"
+			],
+			[
+				"character_table",
+				"Assets/_ProjectD/Resources/Text/Tables/character_table.json.txt"
+			],
+			[
+				"spineskel",
+				"Assets/_ProjectD/Graphics/SpineSkels.meta"
+			],
+			[
+				"app_conf",
+				"Assets/_ProjectD/Resources/Text/Configs/app_config.json.txt"
+			],
+			[
+				"app_",
+				"Assets/_ProjectD/Resources/Text/Configs/app_config.template.json.txt"
+			],
+			[
+				"character_ta",
+				"Assets/_ProjectD/Resources/Text/Tables/character_table.json.txt"
+			],
+			[
+				"",
+				"Assembly-CSharp-vs.csproj"
+			],
+			[
+				"app_config",
+				"Assets/_ProjectD/Resources/Text/Configs/app_config.json.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+		"vintage":
+		{
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 335.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
