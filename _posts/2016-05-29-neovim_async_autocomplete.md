@@ -32,21 +32,24 @@ omnisharp-vim의 IDE 기능들은 OmniSharp server라는 서버로 나누어져 
 [anaconda](https://github.com/DamnWidget/anaconda)라는 python IDE 플러그인이
 서버-클라이언트 구조로 비동기 자동완성을 구현한 것을 본 적이 있었기 때문에
 [omnisharp-sublime](https://github.com/OmniSharp/omnisharp-sublime)이라는
-비동기 자동완성 플러그인을 간단하게 우리 회사에서 사용할 수 있는 수준까지만
-개발해서 사용했었다. 
+비동기 자동완성 플러그인을개발해서 사용했었다. 
 
  이런 경험을 하면서 아쉬웠던 것은 vim의 플러그인들이 동기 방식으로 동작한다는
 점이었다. 이전부터 vim을 주력으로 쓰려고 시도할 때마다 걸렸던 것은 플러그인,
 특히 자동 완성 플러그인을 사용하면 vim이 비약적으로 느려진다는 점이었다. 텍스트
-에디터 역할 본연에만 집중하고 나머지는 shell을 활용하는 작업 흐름은 쉽게 적응할
-수 있었지만, IDE 환경에서 개발을 시작했던 나에겐 자동완성을 완전히 포기하기는
+에디터 역할 본연에만 집중하고 나머지는 shell을 활용하는 작업 흐름은 마음에
+들었지만, IDE 환경에서 개발을 시작했던 나에겐 자동완성을 완전히 포기하기는
 쉽지 않았다.
 
  neovim은 이 문제를 훌륭하게 해결했다. 그 뿐만 아니라, VimL이 아닌 python, lua,
 nodejs, ruby 등 이미 익숙한 언어로 플러그인을 손쉽게 개발할 수 있게 해주었다.
 neovim 플러그인 중, [deoplete](https://github.com/Shougo/deoplete.nvim)을
 사용하면 간단하게 원하는 언어에 대한 비동기 자동완성을 구현할 수 있다. 실제로
-급한데로 간단한 코드로 omnisharp-vim의 자동완성 부분만 deoplete를 통해 비동기
-자동완성을 하는
-[deoplete-omnisharp](https://github.com/astralhpi/deoplete-omnisharp)을 짜서
+급한데로 omnisharp-vim의 자동완성 부분만 deoplete를 통해 비동기자동완성을 하는
+[플러그인](https://github.com/astralhpi/deoplete-omnisharp)을 짜서
 사용했는데, vim으로 Unity C# 코딩을 원활하게 할 수 있었다.
+
+ neovim에서는 그동안 vim으로는 어려웠던 무거운 자동완성 플러그인도 사용할 수
+있게 되었다. 적어도 자동완성이 필요한 개발자가 vim을 외면하게 문제를
+해결한 것이다. python, ruby, nodejs등으로 손쉽게 플러그인을 구현할 수 있는 점도
+이슈가 생기면 플러그인을 개발해서 해결하면 된다는 안정감을 준다. 
