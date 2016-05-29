@@ -2,7 +2,7 @@
 layout: post
 title:  "Browersync+cocos2d-x로 live reload 구성하기"
 date:   2016-05-23 15:28:45
-categories: book
+categories: programing
 ---
 # 목적
  대부분의 개발에서 코딩과 결과물을 확인하는 주기를 짧게 하는 것은있게 생산성에 도움이 될 뿐만 아니라 좀 더 즐거운 개발이 가능하게 합니다. 작성한 코드로 결과물이 발전해나가는 것을 빠르게 확인하고, 목표를 작게 자르고 달성해나가는 것은 정말 즐겁고 보람있습니다.
